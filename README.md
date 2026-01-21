@@ -28,3 +28,5 @@
   - 출석: 녹색
   - 지각: 노랑
   - 결석: 빨강
+
+<hr style="height:3px; background:#F2F2F2; border:none;">
