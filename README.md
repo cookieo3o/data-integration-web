@@ -1,1 +1,3 @@
-# data-integration-web
+# 데이터 조회 연계 예제 프로젝트
+
+
