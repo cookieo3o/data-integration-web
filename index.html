@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>출석 관리 프로그램</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="container">
+    <h1>출석 관리 프로그램</h1>
+
+    <div class="filter">
+      <button data-filter="전체">전체</button>
+      <button data-filter="출석">출석</button>
+      <button data-filter="지각">지각</button>
+      <button data-filter="결석">결석</button>
+    </div>
+
+    <div id="cardContainer" class="card-container"></div>
+  </div>
+
+  <script src="server-data.js"></script>
+  <script src="script.js"></script>  
+</body>
+</html>

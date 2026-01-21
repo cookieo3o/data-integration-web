@@ -1,0 +1,18 @@
+body {font-family: Arial, sans-serif; margin: 0; padding: 0; box-sizing: border-box; background: rgb(50, 65, 120); color: #333333;}
+
+.container {width: 900px; height: 1000px; background: #fff; border-radius: 30px; border: 1px solid #E6E6E6; margin: 40px auto; padding: 50px; text-align: center; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+.container h1 {border-bottom: 1px solid #E6E6E6; padding-bottom: 20px;}
+
+.filter button {margin: 0 5px 40px 5px; padding: 15px 30px; background: #fff; border: 1px solid #CCCCCC; border-radius: 15px; color: rgb(100, 100, 100); font-size: 15px; font-weight: bold;  cursor: pointer;}
+.filter button:hover {background: #3C50DC; color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+.filter button.active {background: #3C50DC; color: #fff; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);}
+
+.card-container {display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px;}  
+.card {background: #fff; border: 1px solid #CCCCCC; border-radius: 20px; padding: 15px; text-align: left;}
+.badge {background: #8C9BF0; font-size: 10px; font-weight: bold; padding: 5px 10px; border-radius: 20px; color: #fff;}
+
+.green {background: #4caf50;}
+.orange {background: #ff9800;}
+.red {background: #f44336;}
+
+.card div {margin-left: 70px; margin-top: 15px; width: 50%; padding: 10px 10px; border: none; color: #fff; border-radius: 20px 0px 20px 20px; font-size: 15px; font-weight: bold; text-align: center; cursor: pointer;}
